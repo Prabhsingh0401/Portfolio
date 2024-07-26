@@ -4,10 +4,12 @@
     overflow-x: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(19, 19, 19);
     font-family: kumbh sans;
 }
 
@@ -216,4 +218,55 @@ body{
     font-size: 18px;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+
+.chapter-2{
+    margin-left: 6vw;
+    margin-top: 30vh;
+}
+
+.chapter-2-bg{
+    position: absolute;
+    z-index: -2;
+    margin-top: -20vh;
+}
+
+.chapter-2 h1{
+    color: whitesmoke;
+    font-size: 5vw;
+    letter-spacing: 5px; 
+}  
+
+.chapter-2 p{
+    color: whitesmoke;
+    margin-top: -5vh;
+    font-size: 2vw;
+}
+
+.chapter-2-logo{
+    display: flex;
+}
+
+.chapter-2-logo img{
+    margin-right: 2vw;
+}
+
+.chapter-2-design-1{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.chapter-2-design-1 img{
+    margin-right: 3vw;
+}
+
+.chapter-2-design-2{
+    display: flex;
+    margin-top: 10vh;
+    float: right;
+    margin-right: 6vw;
+}
+
+.chapter-2-design-2 img{
+    margin-right: 3vw;
 }
