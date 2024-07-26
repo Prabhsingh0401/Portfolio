@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Lexend:wght@100..900&display=swap');
+
+:root{
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    font-family: kumbh sans;
+}
+
+.hero{
+    width: 100%;
+    margin-top: 25vh;
+    margin-left: 8vw;
+    display: flex;
+    height: 100vh;
+}
+
+.hero h1{
+    color: whitesmoke;
+    font-size: 10vw;
+}
+
+.hero img{
+    position: absolute;
+    z-index: -2;
+    width: 45vw;
+    margin-top: -15vh;
+    margin-left: 20vw;
+    opacity: 0.7;
+}
+
+.hero p{
+    margin-top: -15vh;
+    color: whitesmoke;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.frame {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 4vh;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -37.5px; /* ($fontSize * 1.5) / -2 where $fontSize = 50px */
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 50px; /* $fontSize */
+    line-height: 75px; /* $fontSize * 1.5 */
+    height: 75px; /* $fontSize * 1.5 */
+  }
+  
+  .carousel .pre {
+    position: absolute;
+    color: #2c2c2c;
+    top: 0;
+    right: 54.5%;
+    height: 75px; /* $fontSize * 1.5 */
+  }
+  
+  .carousel .change_outer {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    text-align: left;
+    height: 75px; /* $fontSize * 1.5 */
+    overflow: hidden;
+  }
+  
+  .carousel .change_outer .change_inner {
+    position: relative;
+    animation: rotate 8s ease-in-out infinite;
+  }
+  
+  .carousel .change_outer .change_inner .element {
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  
+  @keyframes rotate {
+    0%, 20% {
+      transform: translateY(0);
+    }
+    25%, 45% {
+      transform: translateY(-75px); /* $fontSize * -1.5 */
+    }
+    50%, 70% {
+      transform: translateY(-150px); /* $fontSize * -3 */
+    }
+    75%, 95% {
+      transform: translateY(-225px); /* $fontSize * -4.5 */
+    }
+    100% {
+      transform: translateY(-300px); /* $fontSize * -6 */
+    }
+  }
+  
+
+.chapter-1{
+    height: 80vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}  
+
+.chapter-1 > .globe{
+    position: absolute;
+    margin-top: -10vh;
+    width: 50vw;
+    margin-left: 18vw;
+    z-index: -2;
+}
+
+.chapter-1-inner{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.chapter-1 h1{
+    color: whitesmoke;
+    font-size: 5vw;
+    letter-spacing: 5px; 
+}  
+
+.chapter-1 p{
+    color: whitesmoke;
+    margin-top: -5vh;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.chapter-1 > .left{
+    margin-top: 3vh;
+}
+
+.left p{
+    width: 50%;
+    text-align: justify;
+    margin-top: 5vh;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.logo-grid {
+    margin-left: -30vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+.projects{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.projects h1{
+    color: whitesmoke;
+    font-size: 5vw;
+    letter-spacing: 2px; 
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding-left: 2vw;
+}
+
+.child{
+    height: 68vh;
+    width: 30vw;
+    border-radius: 30px;
+    background-color: #272727;
+    margin-right: 4vw;
+}
+
+.child img{
+    width: 26vw;
+}
+
+.child h1{
+    font-size: 3vw;
+    margin-left: 1vw;
+    letter-spacing: -1px;
+}
+
+.child p{ 
+    color: whitesmoke;
+    font-size: 18px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
